@@ -49,3 +49,40 @@ app-amistad-angular/__screenshots__/
 # System files
 app-amistad-angular/.DS_Store
 app-amistad-angular/Thumbs.db
+
+
+#Spring
+
+api-amistad/HELP.md
+api-amistad/target/
+api-amistad/.mvn/wrapper/maven-wrapper.jar
+api-amistad/!**/src/main/**/target/
+api-amistad/!**/src/test/**/target/
+
+### STS ###
+api-amistad/.apt_generated
+api-amistad/.classpath
+api-amistad/.factorypath
+api-amistad/.project
+api-amistad/.settings
+api-amistad/.springBeans
+api-amistad/.sts4-cache
+
+### IntelliJ IDEA ###
+api-amistad/.idea
+api-amistad/*.iws
+api-amistad/*.iml
+api-amistad/*.ipr
+
+### NetBeans ###
+api-amistad/nbproject/private/
+api-amistad/nbbuild/
+api-amistad/dist/
+api-amistad/nbdist/
+api-amistad/.nb-gradle/
+api-amistad/build/
+api-amistad/!**/src/main/**/build/
+api-amistad/!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
