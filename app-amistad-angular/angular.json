@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "app-amistad": {
+    "app-amistad-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "app-amistad:build:production"
+              "buildTarget": "app-amistad-angular:build:production"
             },
             "development": {
-              "buildTarget": "app-amistad:build:development"
+              "buildTarget": "app-amistad-angular:build:development"
             }
           },
           "defaultConfiguration": "development"

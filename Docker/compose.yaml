@@ -21,3 +21,15 @@ services:
       - "8080:8080"
     depends_on:
       - db
+  frontend:
+    container_name: angular_frontend
+    build:
+      context: ../app-amistad-angular      
+      dockerfile: ../Docker/Angular/Dockerfile 
+    ports:
+      - "4200:4200"
+    volumes:
+      - ../app-amistad-angular:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - db

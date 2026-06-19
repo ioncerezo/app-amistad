@@ -8,44 +8,44 @@ Docker/logs
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+app-amistad-angular/dist
+app-amistad-angular/tmp
+app-amistad-angular/out-tsc
+app-amistad-angular/bazel-out
 
 # Node
-/node_modules
-npm-debug.log
-yarn-error.log
+app-amistad-angular/node_modules
+app-amistad-angular/npm-debug.log
+app-amistad-angular/yarn-error.log
 
 # IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+app-amistad-angular/.idea/
+app-amistad-angular/.project
+app-amistad-angular/.classpath
+app-amistad-angular/.c9/
+app-amistad-angular/*.launch
+app-amistad-angular/.settings/
+app-amistad-angular/*.sublime-workspace
 
 # Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/mcp.json
-.history/*
+app-amistad-angular/.vscode/*
+app-amistad-angular/!.vscode/settings.json
+app-amistad-angular/!.vscode/tasks.json
+app-amistad-angular/!.vscode/launch.json
+app-amistad-angular/!.vscode/extensions.json
+app-amistad-angular/!.vscode/mcp.json
+app-amistad-angular/.history/*
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-__screenshots__/
+app-amistad-angular/.angular/cache
+app-amistad-angular/.sass-cache/
+app-amistad-angular/connect.lock
+app-amistad-angular/coverage
+app-amistad-angular/libpeerconnection.log
+app-amistad-angular/testem.log
+app-amistad-angular/typings
+app-amistad-angular/__screenshots__/
 
 # System files
-.DS_Store
-Thumbs.db
+app-amistad-angular/.DS_Store
+app-amistad-angular/Thumbs.db
